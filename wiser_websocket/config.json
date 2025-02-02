@@ -1,0 +1,15 @@
+{
+  "name": "Wiser WebSocket",
+  "version": "1.0",
+  "slug": "wiser_websocket",
+  "description": "Kommuniziert mit Wiser über WebSockets",
+  "startup": "services",
+  "boot": "auto",
+  "hassio_api": true,
+  "hassio_role": "default",
+  "homeassistant": "2023.12.0",
+  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+  "options": {},
+  "schema": {},
+  "image": "local/wiser_websocket"
+}
